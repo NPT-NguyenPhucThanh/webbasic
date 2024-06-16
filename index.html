@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Design Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="logo">
+        <h1 class="first-heading">
+            We are a 
+                <span class="highlight">
+                    Creative
+                </span> 
+            <br>Design Agency
+        </h1>
+    </header>
+    <main>
+        <section class="card1">
+            <img class="box box1" src="./assets/beautiful.jpg" alt="beautiful">
+            <div class="box box2">
+                <h3>
+                    Beauty
+                </h3>
+                <p>
+                    We strive to create the most beautiful websites for all your reads. Working closely with you to design and develove an amazing website for your bussiness.
+                </p>
+            </div>
+        </section>
+        <section class="card2">
+            <img class="box box3" src="./assets/construction.jpg" alt="construction">
+            <div class="box box4">
+                <h3>
+                    Construction
+                </h3>
+                <p>
+                    Built by our team of professional developers, we ensure the most rigorous and modern websites. Built from scratch using HTML and CSS. Only the best for you.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="page"></div>
+        <h5>
+            Create. Develop. Design
+        </h5>
+    </footer>
+    <style>
+        header{
+            margin: 30px 30px 30px 30px;
+        }
+        body{
+            width: 90%;
+            height: auto;
+            margin: 150px auto;
+        }
+        section{
+            float: left;
+        }
+        .highlight{
+            color: rgb(42, 2, 241)
+        }
+        .box{
+            width: 300px;
+            height: 200px;
+            float: left;
+            
+        }
+        .box1{
+            margin: 0px 30px 30px 30px;
+        }
+        .box2{
+           margin-left: 30px;
+        }
+        .box3{
+            margin: 0px 30px 30px 30px;
+        }
+        .box4{
+            margin-left: 30px;
+        }
+        .page{
+            width: 100%;
+            height: 42px;
+            background-color: rgb(255, 250, 250);
+            position: fixed;
+            bottom: 0;
+        }
+        h5{
+            color:blue;
+            position: fixed;
+            bottom: 0;
+            right: 30px;
+        
+        }
+        @media only screen and (max-width: 600px){
+            header{
+                margin: 30px 30px 30px 30px;
+            }            
+            .box1{
+                width: 85%;
+            }
+            .box2{
+                width: 85%;
+            }
+            .box3{
+                width: 85%;
+            }
+            .box4{
+                width: 85%;
+            }
+        }
+    </style>
+</body>
+</html>
